@@ -1,0 +1,401 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Montserrat","Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+  color:black;
+}
+
+.wrapper {
+  padding: 100px 8% 120px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1920px;
+}
+
+li {
+  list-style:inside;
+}
+
+a {
+  text-decoration: none;
+  color:black;
+}
+
+img {
+  max-width: 100%;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 5px 10px -6px rgba(0,0,0,.1);
+  padding: 20px 8%;
+  position:fixed;
+  top:0;
+  z-index: 1;
+}
+
+.header-logo h1{
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.header-logo h1:hover {
+  opacity: 0.8;
+}
+
+#main-nav {
+  display: flex;
+}
+
+#main-nav li {
+  list-style: none;
+}
+
+#main-nav li a {
+  margin-left: 30px;
+  font-weight: bolder;
+}
+
+#main-nav li a:hover {
+  border-bottom: 2px solid black;
+  opacity: 0.8;
+}
+
+#mainvisual img {
+  width: 100%;
+  margin-top: 80px;
+  max-width: 1920px;
+  object-fit: cover;
+}
+
+.section-title {
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-bottom: 64px;
+}
+
+#work ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+#work li{
+  list-style: none;
+  width: 50%;
+  padding: 24px;
+  margin-bottom: 40px;
+}
+
+.works-img:hover {
+  opacity: 0.8;
+}
+
+.works-intro {
+  text-align:left;
+  margin: 4px 0 64px;
+}
+
+#work h3:hover {
+  opacity: 0.8;
+}
+
+#work h3 {
+  font-size: 0.9rem;
+}
+
+#works p {
+  font-size: 0.8rem;
+  margin-top: 4px;
+}
+
+#about {
+  background-color: #FFFCF3;
+}
+
+#about .myprofile {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#about img {
+  width: 216px;
+  height: 216px;
+  border-radius: 50%;
+}
+
+#about .profile-info {
+  text-align: left;
+  margin-left: 28px;
+}
+
+#about .myname {
+  font-size: 1.4rem;
+  margin-top: 12px;
+}
+
+#about .profile-text {
+  font-size: 0.9rem;
+  margin-top: 12px;
+  width:360px;
+  line-height: 1.8;
+}
+
+#skill ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#skill li{
+  list-style: none;
+  display: inline-block;
+  width: 30%;
+  margin: 16px auto;
+  padding: 0 8px;
+
+  
+}
+
+.skill-img {
+  display:inline-block;
+  width: 60px;
+}
+
+.skill-img htmlcss {
+  width: 240px;
+}
+
+#skill h3{
+  margin-top: 12px;
+}
+
+#skill p {
+  font-size: 0.8rem;
+  line-height: 1.8;
+  margin-top: 10px;
+}
+
+#footer {
+  font-size: 0.5rem;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.portdolio-work {
+  margin: 0 auto;
+  max-width: 1920px;
+}
+
+.work-title {
+  font-size: 2rem;
+  margin-top:80px;
+}
+
+#worktop {
+  margin-top: 80px;
+  background-color: #FFFDF5;
+  padding: 40px 16%;
+}
+
+#worktop img {
+  margin: 40px auto 60px;
+}
+
+.overview, .information {
+  padding: 0px 8%;
+}
+
+.overview p {
+  font-size: 0.9rem;
+  line-height: 1.8;
+  text-align: left;
+}
+
+.workinfo-title {
+  padding-bottom:16px;
+  text-transform: uppercase;
+}
+
+.information {
+  margin:40px 0;
+}
+
+.information dl {
+  display:flex;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+
+.information dt {
+  width:40%;
+  text-align:left;
+  padding-bottom: 4px;
+  display:list-item;
+  list-style-type: disc;
+  list-style: inside;
+}
+
+.information dd {
+  width:60%;
+  padding-bottom: 4px;
+  text-align:left;
+}
+
+#detailinfo {
+  padding: 40px 16%;
+}
+
+#detailinfo div {
+  margin-bottom: 80px;
+}
+
+#detailinfo .detailinfo-title {
+  margin:46px 0;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+#detailinfo li, p {
+  line-height: 1.8;
+}
+
+#detailinfo li {
+  padding: 12px 0;
+}
+
+#detailinfo p {
+  padding: 20px 0;
+}
+
+#detailinfo img{
+  margin:24px 0;
+}
+
+.redesigner {
+  border-bottom:black 1px solid;
+}
+
+
+#detailinfo .ui-number {
+  font-size: 3rem;
+  margin-top: 46px;
+  text-align: center;
+}
+
+#detailinfo .subtitle {
+  text-align:center;
+  font-size:1.8rem;
+}
+
+#detailinfo .ui-title {
+  text-align:center;
+  font-weight: normal;
+  margin-top: 24px ;
+}
+
+
+@media screen and (max-width:600px)  {
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+
+  #work ul {
+    flex-direction: column;
+  }
+
+  #work li {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  #about .myprofile {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #about .profile-info {
+    margin: 12px auto;
+  }
+
+  #about .myname {
+    text-align:center;
+  }
+
+  #skill ul {
+    display:block;
+  }
+
+  #skill li{
+    width: 100%;
+    margin: 12px 0;
+  }
+
+  .skill-img {
+    display: inline-block;
+    width: 60px;
+    margin:auto 0px;
+  }
+
+  .skill-info {
+    display: inline-block;
+    text-align: left;
+    width: 75%;
+    margin-left: 12px;
+  }
+
+  #skill h3{
+    font-size: 0.95rem
+  }
+
+  #skill p {
+    font-size: 0.9rem
+  }
+
+  #worktop {
+    padding: 40px 4%;
+  } 
+
+  .overview, .information {
+    padding: 0px;
+  }
+
+  #detailinfo {
+    padding: 40px 4%;
+  }
+
+  .work-title {
+    font-size: 1.4rem;
+  }
+
+  .workinfo-title {
+    font-size: 0.9rem;
+  }
+
+  #detailinfo .ui-number {
+    margin:24px 0;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  #detailinfo .subtitle {
+    font-size:1.2rem;
+  }
+
+  #detailinfo .ui-title {
+    margin: 12px 0;
+  }
+
+}
